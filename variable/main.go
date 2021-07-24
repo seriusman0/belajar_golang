@@ -1,34 +1,49 @@
-//variables
-// string
-// int
-// float
-// bool true or false
-
 package main
 
-import "fmt"
-
 func main() {
-	// cara 1 deklarasi variable
+	// Deklarasi 1
 	// var nama string = "Seriusman Waruwu"
-	// var umur int = 20
-
-	//cara 2 deklarasi variable
-	// var nama string
-	// var umur = 20
-
-	//cara 3 deklarasi variable
-	// nama := "Seriusman Waruwu"
-	// umur := 20
+	// var umur int = 22
+	// var gender string = "Male"
 
 	// fmt.Println(nama)
 	// fmt.Println(umur)
+	// fmt.Println(gender)
 
-	// cara 4 deklarasi variable
-	namaDepan, namaBelakang := "Seriusman", "Waruwu"
-	umurSekarang, umurTahunDepan := 20, 21
+	// umur = 23
+	// fmt.Println("Umur yang baru ada adalah ", umur)
 
-	fmt.Println(namaDepan, namaBelakang)
-	fmt.Println(umurSekarang, umurTahunDepan)
+	//Deklarasi 2
+	// nama := "Seriusman Waruwu"
+	// umur := 22
+	// gender := "Male"
+
+	// fmt.Println(nama)
+	// fmt.Println(umur)
+	// fmt.Println(gender)
+
+	//Deklarasi 3 Multi variabel
+	// var satu, dua, tiga int = 1, 2, 3
+	// var (
+	// 	nama   string = "Seriusman Waruwu"
+	// 	umur   int    = 22
+	// 	gender string = "Male"
+	// )
+
+	// fmt.Println(nama)
+	// fmt.Println(umur)
+	// fmt.Println(gender)
+
+	// nama, umur, gender := "Seriusman Waruwu", 22, "Male"
+	// fmt.Println(nama)
+	// fmt.Println(umur)
+	// fmt.Println(gender)
+
+	//Deklarasi 4
+	// nama := new(string)
+	// *nama = "Seriusman Waruwu"
+	// fmt.Println(*nama)
+
+	_ = "Seriusman Waruwu"
 
 }
